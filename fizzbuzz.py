@@ -1,6 +1,6 @@
 def fizzbuzz(number, end):
     assert type(number) == int, f"Expected an integer, got {type(number)}"
-    assert type(end) == int, f"Expected an integer, got {type(number)}"
+    assert type(end) == int, f"Expected an integer, got {type(end)}"
     fizz = True if (number % 3) == 0 else False
     buzz = True if (number % 5) == 0 else False
     if fizz and buzz:
